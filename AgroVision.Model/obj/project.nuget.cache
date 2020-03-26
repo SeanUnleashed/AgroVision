@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W8N2K3nV+ZxxAk0pJsdMDn0e5/60Tlx5Jtiedt+OiyK6Chav29KH+VOXB0oejzbQqSuB8Hkb0k4VuMKcBo91Zw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Tests\\Core Angular\\AgroVision\\AgroVision.Model\\AgroVision.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgroVision.Common\AgroVision.Common.csproj" />
+    <ProjectReference Include="..\AgroVision.Dal\AgroVision.Dal.csproj" />
+    <ProjectReference Include="..\AgroVision.Model\AgroVision.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>

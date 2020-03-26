@@ -1,0 +1,17 @@
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Dal.deps.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Dal.dll
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Dal.pdb
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.csprojAssemblyReference.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.AssemblyInfoInputs.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.AssemblyInfo.cs
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.dll
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.pdb
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Dal.runtimeconfig.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Dal.runtimeconfig.dev.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.genruntimeconfig.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Model.dll
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\AgroVision.Model.pdb
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.csproj.CopyComplete
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Dal\obj\Debug\netcoreapp3.1\AgroVision.Dal.csproj.CoreCompileInputs.cache

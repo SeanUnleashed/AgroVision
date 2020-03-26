@@ -1,0 +1,126 @@
+  <div class="home-top-image">
+    <img src="assets\images\tractor.jpg" />
+  </div>
+<h1>Spray Dosage Calculator!</h1>
+<p>Welcome to the AgriVision calculation store, quickly cacluate your items below or login to view you saved calculations</p>
+
+<p *ngIf="!userCalculation"><em>Loading...</em></p>
+<div class="container" *ngIf="userCalculation">
+  <div  class="row">
+    <div class="col-12 col-md-8">
+        <div class="row">
+          <div class="col-8 col-md-6">
+            <h2>Quick Calculation  </h2>
+          </div>
+          <div class="col-4 col-md-6">
+            <button (click)="newCalculation()">New</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4">
+            Agent liters per hectare
+          </div>
+          <div class="col-6 col-sm-8">
+            <input (keyup)="onKey($event)" type="number" [(ngModel)]="userCalculation.litersPerHectare" value="{{userCalculation.litersPerHectare}}">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4">
+            Minimum spray rate per hectare
+          </div>
+          <div class="col-6 col-sm-8">
+            <input (keyup)="onKey($event)" type="number" [(ngModel)]="userCalculation.minimimSprayRate" value="{{userCalculation.minimimSprayRate}}">
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-6 col-sm-4">
+            Total hectares
+          </div>
+          <div class="col-6 col-sm-8">
+            <input (keyup)="onKey($event)" type="number" [(ngModel)]="userCalculation.hectares" value="{{userCalculation.hectares}}">
+          </div>
+        </div>
+        <hr />
+        <div class="" *ngIf="isAuthenticated | async">
+
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              Calculation description
+            </div>
+            <div class="col-6 col-sm-8">
+              <input (keyup)="onKey($event)" [(ngModel)]="userCalculation.description" value="{{userCalculation.description}}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              Your crop
+            </div>
+            <div class="col-6 col-sm-8">
+              <input (keyup)="onKey($event)" [(ngModel)]="userCalculation.cropType" value="{{userCalculation.cropType}}">
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              Spraying agent
+            </div>
+            <div class="col-6 col-sm-8">
+              <input (keyup)="onKey($event)" [(ngModel)]="userCalculation.sprayingAgent" value="{{userCalculation.sprayingAgent}}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              Save calculation
+            </div>
+            <div class="col-6 col-sm-8">
+              <button (click)="saveCalculation($event)">Save</button>
+            </div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="row" *ngIf="userCalculation && userCalculation.agentAmount > 0">
+          <div class="col-12">
+            For {{userCalculation.hectares}} hectares use:
+          </div>
+          <div class="col-12">
+            <b>{{userCalculation.agentAmount | number:'0.1-3'}}(L)</b> of the agent
+          </div>
+          <div class="col-12">
+            <b>{{userCalculation.waterAmount | number:'0.1-3'}}(L)</b> of water
+          </div>
+
+          <div *ngIf="!(isAuthenticated | async)">
+            <a [routerLink]='["/authentication/login"]'>login to save you calculation for later</a> 
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="isAuthenticated | async">
+          <thead>
+            <tr>
+              <th>Saved Calculations</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of userCalculations">
+              <td>
+                <a class="calculation-link" (click)="loadCalculation(item.id)">
+                  <div>
+                    {{ item.description }}
+                  </div>
+                  <div>
+                    {{ item.cropType }} | {{ item.sprayingAgent }}
+                  </div>
+                </a>
+              </td>
+              <td><button (click)="deleteCalculation(item.id)">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>  
+</div>

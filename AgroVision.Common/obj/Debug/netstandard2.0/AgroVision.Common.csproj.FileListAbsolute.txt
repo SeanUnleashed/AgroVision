@@ -1,0 +1,9 @@
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\bin\Debug\netstandard2.0\AgroVision.Common.deps.json
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\bin\Debug\netstandard2.0\AgroVision.Common.dll
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\bin\Debug\netstandard2.0\AgroVision.Common.pdb
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.csprojAssemblyReference.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.csproj.CoreCompileInputs.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.AssemblyInfoInputs.cache
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.AssemblyInfo.cs
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.dll
+C:\Dev\Tests\Core Angular\AgroVision\AgroVision.Common\obj\Debug\netstandard2.0\AgroVision.Common.pdb

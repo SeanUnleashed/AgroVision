@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Model", "AgroVision.Model\AgroVision.Model.csproj", "{0258699E-D852-45A7-868B-6423E6435695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Common", "AgroVision.Common\AgroVision.Common.csproj", "{DDA4F7CF-D299-44E7-9B44-E00D698890F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A8596BF4-081B-47FF-A085-595055C1B1A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Dal", "AgroVision.Dal\AgroVision.Dal.csproj", "{7F431E36-8391-4178-93B0-D0C39252B52D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Api", "AgroVision.Api\AgroVision.Api.csproj", "{DA2E940A-CF12-40B9-AC5D-CCABB068CECD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Web", "AgroVision.Web\AgroVision.Web.csproj", "{9FC82249-1ACE-4A6F-BEB8-1E2BC32577D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroVision.Api.Tests", "AgroVision.Api.Tests\AgroVision.Api.Tests.csproj", "{90F68B2D-4CA9-4810-850C-02F36F74532C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0258699E-D852-45A7-868B-6423E6435695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0258699E-D852-45A7-868B-6423E6435695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0258699E-D852-45A7-868B-6423E6435695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0258699E-D852-45A7-868B-6423E6435695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA4F7CF-D299-44E7-9B44-E00D698890F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA4F7CF-D299-44E7-9B44-E00D698890F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA4F7CF-D299-44E7-9B44-E00D698890F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA4F7CF-D299-44E7-9B44-E00D698890F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F431E36-8391-4178-93B0-D0C39252B52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F431E36-8391-4178-93B0-D0C39252B52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F431E36-8391-4178-93B0-D0C39252B52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F431E36-8391-4178-93B0-D0C39252B52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2E940A-CF12-40B9-AC5D-CCABB068CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2E940A-CF12-40B9-AC5D-CCABB068CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2E940A-CF12-40B9-AC5D-CCABB068CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2E940A-CF12-40B9-AC5D-CCABB068CECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC82249-1ACE-4A6F-BEB8-1E2BC32577D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC82249-1ACE-4A6F-BEB8-1E2BC32577D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC82249-1ACE-4A6F-BEB8-1E2BC32577D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC82249-1ACE-4A6F-BEB8-1E2BC32577D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F68B2D-4CA9-4810-850C-02F36F74532C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F68B2D-4CA9-4810-850C-02F36F74532C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F68B2D-4CA9-4810-850C-02F36F74532C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F68B2D-4CA9-4810-850C-02F36F74532C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90F68B2D-4CA9-4810-850C-02F36F74532C} = {A8596BF4-081B-47FF-A085-595055C1B1A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE5174A9-762F-40C8-A76C-5B9CD9BD8935}
+	EndGlobalSection
+EndGlobal
